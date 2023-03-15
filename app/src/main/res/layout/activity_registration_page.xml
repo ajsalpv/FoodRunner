@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff5b2e"
+    tools:context=".RegistrationPage">
+
+
+
+
+
+    <EditText
+        android:id="@+id/etregistrationname"
+        android:layout_width="match_parent"
+
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFFFF"
+        android:maxLines="1"
+        android:hint="Name(Min 3 character)" />
+
+    <EditText
+        android:id="@+id/etregistrationmail"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Email Address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:background="#FFFFFFFF"
+        android:layout_below="@id/etregistrationname"
+        />
+
+    <EditText
+        android:id="@+id/etregistrationmobile"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Mobile Nummber(10 Digits)"
+        android:layout_centerHorizontal="true"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFFFF"
+        android:layout_below="@id/etregistrationmail"
+        />
+
+    <EditText
+        android:id="@+id/etregistrationaddress"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Delivary Address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFFFF"
+        android:layout_below="@id/etregistrationmobile"
+        />
+
+    <EditText
+        android:id="@+id/etregistrationpassword"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Password(min 4characters)"
+        android:maxLines="1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFFFF"
+        android:layout_below="@id/etregistrationaddress"
+        />
+
+    <EditText
+        android:id="@+id/etregistrationconfirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Confirm Password"
+        android:maxLines="1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFFFF"
+        android:layout_below="@id/etregistrationpassword"
+        />
+    <Button
+        android:id="@+id/btnfrregisterbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Register"
+        android:layout_below="@id/etregistrationconfirmpassword"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        />
+
+
+
+
+</RelativeLayout>

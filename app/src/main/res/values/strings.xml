@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FOOD RUNNER</string>
+    <string name="preference_file_name">FOOD RUNNER </string>
+</resources>

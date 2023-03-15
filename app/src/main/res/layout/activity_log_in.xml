@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff5b2e"
+
+    tools:context=".LogIN">
+
+    <ImageView
+        android:id="@+id/imgfoodrunnerlogin"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/foodrunner" />
+
+    <EditText
+        android:id="@+id/etfrmobile"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/imgfoodrunnerlogin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFFFF"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:hint="Mobile Number(10 digits)" />
+
+    <EditText
+        android:id="@+id/etfrpassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/etfrmobile"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFFFF"
+        android:hint="Password"
+        android:maxLines="1"
+        android:inputType="textPassword"
+         />
+    <Button
+        android:id="@+id/btnfrloginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/etfrpassword"
+        android:background="@color/red"
+        android:layout_margin="20dp"
+        android:text="Login"/>
+    <TextView
+        android:id="@+id/txtfrone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_below="@id/btnfrloginbutton"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/txtfrtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?Sign up now"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+
+</RelativeLayout>
